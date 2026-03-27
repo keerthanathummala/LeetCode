@@ -55,5 +55,5 @@ class Solution(object):
             if nums[i]== val:
                 nums[i]= 51
                 k+=1
-        nums.sort()
+                nums.sort()
         return len(nums)-k
